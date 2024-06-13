@@ -88,40 +88,64 @@ The primary objective of this project is to simulate a realistic cyber attack sc
 <img src="https://imgur.com/g9pWova.jpg" height="90%", width="90%">
 </p>
 
+- In the registry editor, change the "start" value to 4, for the following and boot out of safe mode afterwards;
+
+1. Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Sense
+
+2. Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdBoot
+
+3. Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+
+4. Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisDrv
+
+5. Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisSvc
+
+6. Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdFilter
+
+- Preventing VM from going into standby.
+
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/gMs52Ov.jpg" height="90%", width="90%">
+</p>
+
+## INSTALLING SYSMON IN WINDOWS VM
+<p align="center">
+<img src="https://imgur.com/aPhCXc4.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/Ck6PJ1q.jpg" height="90%", width="90%">
+</p>
+
+- Checking for Sysmon Event Logs
+<p align="center">
+<img src="https://imgur.com/t5020v7.jpg" height="90%", width="90%">
+</p>
+
+## INSTALL LIMACHARLIE EDR ON WINDOWS VM
+
+- Create an account and also an Organization
+<p align="center">
+<img src="https://imgur.com/yDYvzak.jpg" height="90%", width="90%">
+</p>
+
+- Install sensors on VM
+<p align="center">
+<img src="https://imgur.com/nvdWDhZ.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/VjR7imX.jpg" height="90%", width="90%">
 </p>
 
+- Windows machine detected
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/R18le71.jpg" height="90%", width="90%">
 </p>
 
+- Configure LimaCharlie to ship sysmon event logs alongside its own EDR telemetry
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/RPktJFM.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
