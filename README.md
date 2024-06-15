@@ -156,98 +156,135 @@ The primary objective of this project is to simulate a realistic cyber attack sc
 <img src="https://imgur.com/LA01mYi.jpg" height="90%", width="90%">
 </p>
 
+- Dowloaded Sliver
+  
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/Pqaq176.jpg" height="90%", width="90%">
+</p>
+
+
+<p align="center">
+<img src="https://imgur.com/Q5HBRM5.jpg" height="90%", width="90%">
+</p>
+
+- Generated C2 payload and spinned up a web server
+  
+<p align="center">
+<img src="https://imgur.com/EKzqEzA.jpg" height="90%", width="90%">
+</p>
+
+- Downloaded into the Windoms VM
+
+<p align="center">
+<img src="https://imgur.com/pltBxGF.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/KXC5ar3.jpg" height="90%", width="90%">
+</p>
+
+- Executed the payload
+<p align="center">
+<img src="https://imgur.com/7Q42Pi4.jpg" height="90%", width="90%">
+</p>
+
+- Interacting with the C2 session
+  
+<p align="center">
+<img src="https://imgur.com/qDWfpYc.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/LR5oBmz.jpg" height="90%", width="90%">
+</p>
+
+- Observing Telemetry
+  
+<p align="center">
+<img src="https://imgur.com/GnGkFz0.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/9b2Rtwu.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/qYxHcr4.jpg" height="90%", width="90%">
+</p>
+
+## ADVERSARIAL ACTIONS
+LSASS is responsible for enforcing the security policy on the system, handling password changes, and creating access tokens. It stores various types of authentication data, including plaintext passwords, hashed passwords, making it attractive to attackers. So, I will be dumping lsass, simulating a possible attack.
+
+- Through Sliver
+<p align="center">
+<img src="https://imgur.com/NlkWHOc.jpg" height="90%", width="90%">
+</p>
+
+- Picked it up on the Timeline
+  
+<p align="center">
+<img src="https://imgur.com/Jjc7mjE.jpg" height="90%", width="90%">
+</p>
+
+- No detections yet on LimaCharlie for the activity I performed against the windows VM
+
+<p align="center">
+<img src="https://imgur.com/rXzc8xv.jpg" height="90%", width="90%">
+</p>
+
+- Wrote A detection rule and a "report" response.
+
+<p align="center">
+<img src="https://imgur.com/B6tr7eN.jpg" height="90%", width="90%">
+</p>
+
+- Tested the detection rule
+  
+<p align="center">
+<img src="https://imgur.com/iP6jLAO.jpg" height="90%", width="90%">
+</p>
+
+- Saved the rule
+  
+<p align="center">
+<img src="https://imgur.com/zs0XJnu.jpg" height="90%", width="90%">
+</p>
+
+- Performed the same dumping of lsass on sliver, and now it shows in "Detections"
+  
+<p align="center">
+<img src="https://imgur.com/25wyiMA.jpg" height="90%", width="90%">
+</p>
+
+## PERFORMING ANOTHER ATTACK AND BLOCKING THE ATTACK
+For this I will simulate a ransomware attack and craft a response rule that effectively disrupts and blocks the attack. <br/>
+As an adversary, I will be deleting volume shadows from the victim system (windows vm), since this is a predictable action of ransomware, a high threat activity and low false positive prevalence.
+
+- C2 session
+<p align="center">
+<img src="https://imgur.com/LVIQTBw.jpg" height="90%", width="90%">
 </p>
 
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/Fqr1pbA.jpg" height="90%", width="90%">
 </p>
 
+- On LimaCharlie's Timeline
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/DGZ6l6h.jpg" height="90%", width="90%">
 </p>
 
+- Customed response
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/QDt4HwQ.jpg" height="90%", width="90%">
 </p>
 
+- Reran "vssadmin delete shadows /all", however we see an inactive system shell, signifying parent process has been terninated.
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/aOG6VM9.jpg" height="90%", width="90%">
 </p>
 
+- Response rule also Seen in "Detections"
 <p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
-</p>
-
-<p align="center">
-<img src=".jpg" height="90%", width="90%">
+<img src="https://imgur.com/kPX11ej.jpg" height="90%", width="90%">
 </p>
