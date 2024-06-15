@@ -148,6 +148,94 @@ The primary objective of this project is to simulate a realistic cyber attack sc
 <img src="https://imgur.com/RPktJFM.jpg" height="90%", width="90%">
 </p>
 
+## SETUP ATTACK SYSTEM(SLIVER)
+
+- ssh from my host computer to Linux VM.
+  
+<p align="center">
+<img src="https://imgur.com/LA01mYi.jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
+<p align="center">
+<img src=".jpg" height="90%", width="90%">
+</p>
+
 <p align="center">
 <img src=".jpg" height="90%", width="90%">
 </p>
